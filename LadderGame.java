@@ -36,12 +36,12 @@ public class LadderGame {
 		for(int i=0; i<ladder.length; i++) {
 			for(int j=0; j<ladder[i].length; j++) {
 				if(ladder[i][j] == 0) {
-					System.out.print(" ¦¢ ");
+					System.out.print(" │ ");
 				}else if(ladder[i][j] ==1) {
 					if(j!=0 && ladder[i][j-1] == 1) {
-						System.out.print("¦¡¦© ");
+						System.out.print("─┤ ");
 					}else if(j!=4 && ladder[i][j+1] ==1) {
-						System.out.print(" ¦§¦¡");
+						System.out.print(" ├─");
 					}
 				}
 			}
