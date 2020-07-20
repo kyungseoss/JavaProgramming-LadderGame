@@ -48,7 +48,7 @@ public class LadderGame {
 			System.out.println();
 		}
 		
-		System.out.print("[x]0~4 ÀÔ·Â : ");
+		System.out.print("[x]0~4 입력 : ");
 		x = scan.nextInt();
 		
 		for(int i=0; i<ladder.length; i++) {
